@@ -12,3 +12,23 @@ rapidfuzz
 langchain
 langchain-google-genai
 plotly
+
+
+
+
+
+PS C:\Users\sushmitha m chavan\OneDrive\Desktop\job-search-ai-agent\job-search-ai-agent> python -c "from importlib.metadata import version as v; [print(p+'=='+v(p)) for p in ['google-genai','pypdf','reportlab','PyMuPDF','pytesseract','Pillow','pandas','requests','python-dotenv','streamlit','rapidfuzz','langchain','langchain-google-genai','plotly']]"
+google-genai==2.22.0
+pypdf==6.16.2
+reportlab==5.0.1
+PyMuPDF==1.28.2
+pytesseract==0.3.13
+Pillow==12.3.0
+pandas==3.0.5
+requests==2.34.2
+python-dotenv==1.2.3
+streamlit==1.63.0
+rapidfuzz==3.14.6
+langchain==1.4.0
+langchain-google-genai==4.4.0
+plotly==7.0.0
