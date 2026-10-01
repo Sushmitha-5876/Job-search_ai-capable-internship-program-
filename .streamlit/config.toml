@@ -1,0 +1,29 @@
+[client]
+# Hides the top-right Streamlit toolbar (Deploy button + the ⋮ menu
+# with Rerun/Clear cache/Settings/etc). This is a genuine Streamlit
+# setting, not something we can control from app.py or theme.css —
+# the toolbar is drawn by the Streamlit framework itself, the same
+# way on every Streamlit app.
+#
+# Options if you ever want it back while actively developing:
+#   "minimal"   -> hides everything (cleanest look, what's set now)
+#   "viewer"    -> keeps a small menu, hides only the Deploy button
+#   "developer" -> always shows the full dev toolbar (Rerun, Clear
+#                  cache, Deploy, etc.) — useful while coding
+#   "auto"      -> Streamlit's own default behavior
+toolbarMode = "minimal"
+
+[server]
+# Matches the 10 MB limit app.py actually enforces on the resume
+# upload, so the native file_uploader caption ("Limit 10MB per
+# file") reflects real backend behavior instead of Streamlit's
+# 200MB default.
+maxUploadSize = 10
+
+[theme]
+base = "dark"
+primaryColor = "#4F6BFF"
+backgroundColor = "#070D1F"
+secondaryBackgroundColor = "#101A3D"
+textColor = "#FFFFFF"
+font = "sans serif"

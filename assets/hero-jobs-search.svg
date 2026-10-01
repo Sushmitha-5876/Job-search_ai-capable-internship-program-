@@ -1,0 +1,390 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1120 400"
+     width="1120"
+     height="400"
+     preserveAspectRatio="xMidYMid meet" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4ZjIyOWIzOC00MThlLTQ2NjYtOTI3Yy00ODhjYzRkM2E5MWEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJ2wVZSuvpw19d/rWYuq2YgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphMjhiMmIyMi1hMmRhLTRkMzQtOTg4MS05MWY5MDAyNzM2NzVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoxZX7pt/TPI6LHjzg5c5YewAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggDPxhLdLcWBAcDuJkFPqYQ2Iy/Q/HQR6bu3OCVx38e5KkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJcbWS05LR/zJRUdAdXy2JYAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDJh8prrewWE62S3LwBXVKjU9rRU7Qcv67DhPwCi4hRaWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjQZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjhmMjI5YjM4LTQxOGUtNDY2Ni05MjdjLTQ4OGNjNGQzYTkxYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjE2YjgzOGYyLWQ4NDktNGVhMC1iNTA5LWRhMDc4OWRmYWQzZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAM/GEt0txYEBwO4mQU+phDYjL9D8dBHpu7c4JXHfx7kqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg+FNn7G6yLE3zt33QYozLcOpykQxwIXqlyG/iOeZ4meaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggM0rvRsAlGhWnF3ph061ZMiyn1Ou5xVpKFu4QPrHJjnJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQMKTns1E3OeJR8e/2LsOu764S0AG44Z/jx2ps1BAPF0lG6pkA5i/dM++qt0B92xqoClcMZ7WKhFRXrJakSni47k=</c2pa:manifest></metadata>
+
+  <!--
+    Find Jobs hero illustration.
+
+    The viewBox is deliberately WIDE (2.8:1) to match the aspect ratio of
+    .hero-illustration-stage (roughly 430x152 in assets/theme.css). The stage
+    scales this asset with object-fit:contain, so a square/portrait viewBox can
+    only ever be as wide as the hero is tall - which is what made the previous
+    artwork read as a small icon with dead space either side. A 2.8:1 canvas
+    lets the artwork occupy the full 42% column at full stage height without a
+    single line of CSS or layout changing.
+
+    Nothing here draws a background: the hero's own gradient shows through.
+  -->
+
+  <defs>
+
+    <!-- ===== DOCUMENT ===== -->
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".5" stop-color="#F1F7FF"/>
+      <stop offset="1" stop-color="#C7DCFF"/>
+    </linearGradient>
+
+    <linearGradient id="paperEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF4FF"/>
+      <stop offset=".5" stop-color="#79A9FF"/>
+      <stop offset="1" stop-color="#2457FF"/>
+    </linearGradient>
+
+    <!-- ===== BADGE / ACCENT GRADIENTS ===== -->
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#72EFFF"/>
+      <stop offset=".45" stop-color="#168BFF"/>
+      <stop offset="1" stop-color="#3038FF"/>
+    </linearGradient>
+
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#69F0B1"/>
+      <stop offset="1" stop-color="#04A879"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C19BFF"/>
+      <stop offset=".5" stop-color="#8548FF"/>
+      <stop offset="1" stop-color="#5720F4"/>
+    </linearGradient>
+
+    <linearGradient id="remote" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6BCBFF"/>
+      <stop offset=".5" stop-color="#397BFF"/>
+      <stop offset="1" stop-color="#3445E8"/>
+    </linearGradient>
+
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF78C9"/>
+      <stop offset=".5" stop-color="#FF3EA7"/>
+      <stop offset="1" stop-color="#D91C7B"/>
+    </linearGradient>
+
+    <!-- ===== MAGNIFIER GLASS ===== -->
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B8F7FF" stop-opacity=".42"/>
+      <stop offset=".5" stop-color="#5FA5FF" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#163C91" stop-opacity=".40"/>
+    </linearGradient>
+
+    <!-- ===== ATMOSPHERE ===== -->
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#168BFF" stop-opacity=".50"/>
+      <stop offset=".45" stop-color="#315BFF" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="violetHaze">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="platformGlow">
+      <stop offset="0" stop-color="#5BEAFF" stop-opacity=".80"/>
+      <stop offset=".5" stop-color="#2563FF" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#2563FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="16" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="dropCast" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#050A18" flood-opacity=".55"/>
+    </filter>
+
+    <filter id="badgeCast" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#050A18" flood-opacity=".50"/>
+    </filter>
+  </defs>
+
+  <!-- ============================================================
+       1. ATMOSPHERIC GLOW
+       ============================================================ -->
+  <g>
+    <ellipse cx="580" cy="195" rx="430" ry="195" fill="url(#halo)">
+      <animate attributeName="opacity" values=".85;1;.85" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="330" cy="255" rx="250" ry="140" fill="url(#violetHaze)">
+      <animate attributeName="opacity" values=".55;.85;.55" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="880" cy="160" rx="210" ry="125" fill="url(#violetHaze)" opacity=".6">
+      <animate attributeName="opacity" values=".40;.70;.40" dur="8s" begin="-3s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- ============================================================
+       2. ORBIT RINGS  (slow, subtle - no spinning artwork)
+       ============================================================ -->
+  <g fill="none" stroke-linecap="round">
+    <ellipse cx="580" cy="190" rx="480" ry="160"
+             stroke="#60A5FA" stroke-opacity=".22" stroke-width="1.6"
+             transform="rotate(-10 580 190)"/>
+
+    <ellipse cx="580" cy="190" rx="380" ry="132"
+             stroke="#67E8F9" stroke-opacity=".20" stroke-width="1.4"
+             stroke-dasharray="14 22"
+             transform="rotate(12 580 190)">
+      <animate attributeName="stroke-dashoffset" values="0;-360" dur="26s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="580" cy="192" rx="278" ry="205"
+             stroke="#A78BFA" stroke-opacity=".18" stroke-width="1.4"
+             stroke-dasharray="6 18"
+             transform="rotate(-24 580 192)">
+      <animate attributeName="stroke-dashoffset" values="0;240" dur="30s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- circular futuristic halo behind the document -->
+    <circle cx="628" cy="186" r="186"
+            stroke="#38BDF8" stroke-opacity=".16" stroke-width="1.5"/>
+    <circle cx="628" cy="186" r="214"
+            stroke="#818CF8" stroke-opacity=".10" stroke-width="1.5"
+            stroke-dasharray="3 13"/>
+  </g>
+
+  <!-- orbiting light motes riding the rings -->
+  <g filter="url(#glow)">
+    <circle r="4" fill="#7DF9FF">
+      <animateMotion dur="18s" repeatCount="indefinite"
+        path="M580,30 a480,160 0 1,1 0.1,0"/>
+      <animate attributeName="opacity" values=".35;1;.35" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" fill="#C4B5FD">
+      <animateMotion dur="24s" begin="-9s" repeatCount="indefinite"
+        path="M580,58 a380,132 0 1,0 0.1,0"/>
+      <animate attributeName="opacity" values=".3;.95;.3" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ============================================================
+       3. GLOWING PLATFORM BENEATH THE DOCUMENT
+       ============================================================ -->
+  <g>
+    <ellipse cx="620" cy="360" rx="250" ry="46" fill="url(#platformGlow)" opacity=".55">
+      <animate attributeName="opacity" values=".40;.70;.40" dur="5.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="620" cy="360" rx="228" ry="30"
+             fill="none" stroke="#38BDF8" stroke-opacity=".45" stroke-width="2.4"/>
+    <ellipse cx="620" cy="360" rx="166" ry="22"
+             fill="none" stroke="#67E8F9" stroke-opacity=".55" stroke-width="2"/>
+    <ellipse cx="620" cy="360" rx="104" ry="14"
+             fill="none" stroke="#A5F3FC" stroke-opacity=".62" stroke-width="1.8"/>
+    <ellipse cx="620" cy="359" rx="56" ry="8" fill="#7DF9FF" opacity=".30" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- ============================================================
+       4. JOBS DOCUMENT  (dominant focal point)
+       ============================================================ -->
+  <g filter="url(#dropCast)">
+    <!-- gentle float; the document never spins -->
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -7; 0 0" dur="7s" repeatCount="indefinite"/>
+
+    <g transform="rotate(7 646 185)">
+
+      <!-- back sheet, for depth -->
+      <rect x="538" y="26" width="250" height="300" rx="16"
+            fill="#7FA8FF" opacity=".28"/>
+
+      <!-- main page -->
+      <rect x="521" y="35" width="250" height="300" rx="16"
+            fill="url(#paper)" stroke="url(#paperEdge)" stroke-width="3"/>
+
+      <!-- inner light border -->
+      <rect x="534" y="48" width="224" height="274" rx="11"
+            fill="none" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="1.6"/>
+
+      <!-- avatar chip -->
+      <circle cx="586" cy="94" r="27" fill="url(#blue)"/>
+      <circle cx="586" cy="86" r="9.5" fill="#EAF6FF"/>
+      <path d="M570 110 a16 14 0 0 1 32 0 z" fill="#EAF6FF"/>
+
+      <!-- JOBS headline, upper portion of the document -->
+      <text x="628" y="182"
+            font-family="'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif"
+            font-size="64" font-weight="800" letter-spacing="1.5"
+            fill="#1D4ED8" text-anchor="middle">JOBS</text>
+
+      <!-- underline accent -->
+      <rect x="556" y="196" width="146" height="6" rx="3" fill="url(#blue)" opacity=".85"/>
+
+      <!-- body lines -->
+      <rect x="552" y="222" width="188" height="12" rx="6" fill="#B9D2FF"/>
+      <rect x="552" y="248" width="152" height="12" rx="6" fill="#CBDEFF"/>
+      <rect x="552" y="274" width="174" height="12" rx="6" fill="#B9D2FF"/>
+      <rect x="552" y="300" width="112" height="12" rx="6" fill="#CBDEFF"/>
+
+      <!-- corner accent tab -->
+      <path d="M771 35 l-42 0 42 42 z" fill="#8FB8FF" opacity=".55"/>
+    </g>
+  </g>
+
+  <!-- ============================================================
+       5. MAGNIFYING GLASS
+       ORIENTATION IS LOAD-BEARING: rotate(-25) about the lens centre,
+       handle drawn BELOW the lens. Preserved exactly from the previous
+       asset - do not flip the sign or the tilt reverses.
+       ============================================================ -->
+  <g transform="rotate(-25 452 250)" filter="url(#glow)">
+
+    <animateTransform attributeName="transform" type="rotate"
+      values="-25 452 250; -23 452 250; -25 452 250; -26.5 452 250; -25 452 250"
+      dur="8s" repeatCount="indefinite"/>
+
+    <!-- handle -->
+    <rect x="436" y="316" width="33" height="78" rx="16.5"
+          fill="url(#blue)" stroke="#63E8FF" stroke-width="3"/>
+    <rect x="445" y="328" width="9" height="52" rx="4.5"
+          fill="#B8F7FF" opacity=".55"/>
+
+    <!-- lens -->
+    <circle cx="452" cy="250" r="80" fill="url(#glass)"
+            stroke="url(#blue)" stroke-width="14"/>
+    <circle cx="452" cy="250" r="65" fill="#0C2B68" fill-opacity=".34"
+            stroke="#8DEEFF" stroke-opacity=".45" stroke-width="2"/>
+
+    <!-- highlight -->
+    <path d="M410 218 C421 197 441 183 464 180"
+          fill="none" stroke="#FFFFFF" stroke-width="9"
+          stroke-linecap="round" opacity=".85"/>
+
+    <!-- outer rim light -->
+    <circle cx="452" cy="250" r="90" fill="none"
+            stroke="#7DF9FF" stroke-opacity=".35" stroke-width="2">
+      <animate attributeName="stroke-opacity" values=".18;.55;.18" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ============================================================
+       6. JOB-TYPE BADGES
+       ============================================================ -->
+
+  <!-- FULL-TIME - upper left -->
+  <g filter="url(#badgeCast)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -5; 0 0" dur="6s" repeatCount="indefinite"/>
+    <g transform="rotate(-8 247 75)">
+      <rect x="155" y="47" width="185" height="56" rx="28" fill="url(#green)"/>
+      <rect x="155" y="47" width="185" height="56" rx="28"
+            fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1.5"/>
+      <!-- briefcase -->
+      <g fill="#FFFFFF">
+        <rect x="172" y="66" width="27" height="19" rx="4"/>
+        <rect x="180" y="61" width="11" height="6" rx="2"/>
+      </g>
+      <text x="210" y="83"
+            font-family="'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif"
+            font-size="21" font-weight="700" fill="#FFFFFF">Full-time</text>
+    </g>
+  </g>
+
+  <!-- INTERNSHIP - middle left -->
+  <g filter="url(#badgeCast)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -6; 0 0" dur="7.4s" begin="-2s" repeatCount="indefinite"/>
+    <g transform="rotate(-5 225 178)">
+      <rect x="128" y="150" width="196" height="56" rx="28" fill="url(#purple)"/>
+      <rect x="128" y="150" width="196" height="56" rx="28"
+            fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1.5"/>
+      <!-- graduation cap -->
+      <g fill="#FFFFFF">
+        <path d="M145 173 l16 -8 16 8 -16 8 z"/>
+        <path d="M152 178 v8 c0 3 18 3 18 0 v-8 l-9 4.5 z"/>
+      </g>
+      <text x="184" y="186"
+            font-family="'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif"
+            font-size="21" font-weight="700" fill="#FFFFFF">Internship</text>
+    </g>
+  </g>
+
+  <!-- REMOTE - upper right -->
+  <g filter="url(#badgeCast)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -5; 0 0" dur="6.6s" begin="-1s" repeatCount="indefinite"/>
+    <g transform="rotate(6 930 95)">
+      <rect x="845" y="67" width="167" height="56" rx="28" fill="url(#remote)"/>
+      <rect x="845" y="67" width="167" height="56" rx="28"
+            fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1.5"/>
+      <!-- house / remote -->
+      <g fill="#FFFFFF">
+        <path d="M862 94 l14 -12 14 12 z"/>
+        <rect x="866" y="94" width="20" height="13" rx="3"/>
+      </g>
+      <text x="898" y="103"
+            font-family="'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif"
+            font-size="21" font-weight="700" fill="#FFFFFF">Remote</text>
+    </g>
+  </g>
+
+  <!-- PART-TIME - lower right -->
+  <g filter="url(#badgeCast)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -6; 0 0" dur="8s" begin="-4s" repeatCount="indefinite"/>
+    <g transform="rotate(-6 920 285)">
+      <rect x="832" y="257" width="180" height="56" rx="28" fill="url(#pink)"/>
+      <rect x="832" y="257" width="180" height="56" rx="28"
+            fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1.5"/>
+      <!-- calendar -->
+      <g fill="none" stroke="#FFFFFF" stroke-width="2.6">
+        <rect x="850" y="274" width="24" height="22" rx="4"/>
+        <path d="M850 281 h24"/>
+        <path d="M857 271 v5 M867 271 v5"/>
+      </g>
+      <text x="884" y="293"
+            font-family="'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif"
+            font-size="21" font-weight="700" fill="#FFFFFF">Part-time</text>
+    </g>
+  </g>
+
+  <!-- ============================================================
+       7. PARTICLES / STAR TWINKLE
+       ============================================================ -->
+  <g fill="#DFF3FF">
+    <circle cx="86" cy="128" r="3">
+      <animate attributeName="opacity" values=".2;1;.2" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="132" cy="322" r="4.2">
+      <animate attributeName="opacity" values=".25;.9;.25" dur="4.2s" begin="-1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="238" r="2.4" fill="#C4B5FD">
+      <animate attributeName="opacity" values=".2;.85;.2" dur="5s" begin="-2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1058" cy="196" r="3.4" fill="#A5F3FC">
+      <animate attributeName="opacity" values=".2;1;.2" dur="3.8s" begin="-0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1002" cy="352" r="2.8">
+      <animate attributeName="opacity" values=".2;.9;.2" dur="4.6s" begin="-3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="796" cy="352" r="2.6" fill="#93C5FD">
+      <animate attributeName="opacity" values=".25;.95;.25" dur="4s" begin="-1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="352" cy="58" r="2.6" fill="#93C5FD">
+      <animate attributeName="opacity" values=".2;.9;.2" dur="5.4s" begin="-2.1s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M1042 74 l3.4 9 9 3.4 -9 3.4 -3.4 9 -3.4 -9 -9 -3.4 9 -3.4 z"
+          fill="#FFFFFF" opacity=".8">
+      <animate attributeName="opacity" values=".35;.95;.35" dur="4.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M64 62 l2.8 7.4 7.4 2.8 -7.4 2.8 -2.8 7.4 -2.8 -7.4 -7.4 -2.8 7.4 -2.8 z"
+          fill="#8FD9FF" opacity=".8">
+      <animate attributeName="opacity" values=".3;.9;.3" dur="5.2s" begin="-2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+</svg>

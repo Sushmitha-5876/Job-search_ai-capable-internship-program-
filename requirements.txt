@@ -1,0 +1,14 @@
+google-genai
+pypdf
+reportlab
+PyMuPDF
+pytesseract
+Pillow
+pandas
+requests
+python-dotenv
+streamlit>=1.38
+rapidfuzz
+langchain
+langchain-google-genai
+plotly

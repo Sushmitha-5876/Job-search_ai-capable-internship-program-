@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets - never commit these
+.env
+.streamlit/secrets.toml
+
+# Local data / generated files
+jobs.db
+job_matches.csv
+*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+# Local AI tool folders
+.agents/
+.claude/
