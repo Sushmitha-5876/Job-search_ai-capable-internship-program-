@@ -99,6 +99,8 @@ CARD_CSS = """
     font-size: 0.88rem;
 }
 .match-cat-box-score { font-family: var(--font-mono); white-space: nowrap; }
+.match-cat-box-head { flex-wrap: wrap; row-gap: 2px; }
+.match-cat-box-score-na { font-family: inherit; font-size: 0.78rem; white-space: nowrap; margin-left: auto; }
 .match-cat-bar-bg {
     background: var(--score-track); border-radius: 4px; height: 6px; margin-top: 6px;
 }
@@ -165,7 +167,7 @@ def _category_bar_html(label, score):
         return (
             f'<div class="match-cat-box"><div class="match-cat-box-head">'
             f'<span>{label}</span>'
-            f'<span class="match-cat-box-score" style="color:var(--muted-soft);">Not available</span>'
+            f'<span class="match-cat-box-score match-cat-box-score-na" style="color:var(--muted-soft);">Not available</span>'
             f'</div><div class="match-cat-bar-bg"></div></div>'
         )
     color = _score_color(score)

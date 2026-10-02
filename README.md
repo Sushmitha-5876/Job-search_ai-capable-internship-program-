@@ -1,7 +1,7 @@
 # 🔎 AI Job Search Agent
 
-**Live app:** [ADD YOUR STREAMLIT CLOUD URL HERE — e.g. https://your-app-name.streamlit.app]
-**GitHub repo:** [ADD YOUR GITHUB REPO URL HERE]
+**Live app:** [https://ai-job-search-agent-pro.streamlit.app](https://ai-job-search-agent-pro.streamlit.app)
+**GitHub repo:** [https://github.com/Sushmitha-5876/Job-search_ai-capable-internship-program-](https://github.com/Sushmitha-5876/Job-search_ai-capable-internship-program-)
 
 An AI-powered career assistant that analyzes a candidate's resume, finds relevant live job listings, produces an **explainable, category-by-category match score** for each job, checks how well a resume would survive an ATS scan, tracks saved jobs in a SQLite database, and answers career questions through a conversational LangChain agent that can search jobs, research companies, match jobs to your resume and manage your saved applications.
 

@@ -4857,3 +4857,393 @@ div.st-key-agent_capabilities_panel .agent-capability-card {
     font-size: 0.88rem !important;
     line-height: 1.42 !important;
 }
+
+
+
+/* ==========================================================
+   MOBILE FIXES (phones, <= 700px) - keep this block LAST
+   ========================================================== */
+@media (max-width: 700px) {
+    html, body, .stApp, [data-testid="stAppViewContainer"], [data-testid="stMain"] {
+        overflow-x: hidden !important;
+    }
+
+    .stApp .block-container,
+    div[data-testid="stMainBlockContainer"] {
+        padding: 1.5rem 12px 2rem !important;
+        max-width: 100% !important;
+    }
+
+    /* 1. Stack every column layout (Streamlit's own stacking is overridden above) */
+    div[data-testid="stHorizontalBlock"] {
+        flex-wrap: wrap !important;
+        gap: 0.75rem !important;
+    }
+    div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"],
+    div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {
+        flex: 1 1 100% !important;
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* 2. Rows that MUST stay side by side: chat header, attachment bar,
+          snapshot header (the chat composer row is styled in
+          "MOBILE FIXES 3" at the end of this file) */
+    .st-key-career_chat_header_row div[data-testid="stHorizontalBlock"],
+    .st-key-career_attach_status_card div[data-testid="stHorizontalBlock"],
+    .st-key-snapshot_card div[data-testid="stHorizontalBlock"] {
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+    }
+    /* chat header: title grows, "New chat" button shrinks to fit */
+    .st-key-career_chat_header_row div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child {
+        flex: 1 1 0 !important; width: auto !important; min-width: 0 !important;
+    }
+    .st-key-career_chat_header_row div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:last-child {
+        flex: 0 0 auto !important; width: auto !important; min-width: 0 !important;
+    }
+    .st-key-career_attach_status_card div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child {
+        flex: 1 1 0 !important; width: auto !important; min-width: 0 !important;
+    }
+    .st-key-career_attach_status_card div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:last-child {
+        flex: 0 0 44px !important; width: 44px !important; min-width: 44px !important;
+    }
+
+    /* 3. Hero panel: let it grow with its content instead of a fixed 405px box */
+    .hero-panel-jobs,
+    .hero-panel {
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: hidden !important;
+    }
+    .hero-panel-jobs .hero-copy h1 { font-size: 2.6rem !important; line-height: 1.05 !important; }
+
+    /* 4. Feature strip (Latest jobs / Relevant matches / Save & track): stack, no overlap */
+    .hero-feature-strip {
+        flex-direction: column !important;
+        flex: 0 0 auto !important;
+        height: auto !important;
+        min-height: 0 !important;
+        gap: 0 !important;
+        position: static !important;
+    }
+    .hero-feature-strip-item,
+    .hero-feature-strip-item:first-child {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+        padding: 0.8rem 0 !important;
+        border-left: 0 !important;
+        position: static !important;
+    }
+    .hero-feature-strip-item + .hero-feature-strip-item {
+        border-top: 1px solid rgba(148, 197, 253, 0.14) !important;
+    }
+    .hero-feature-strip-icon {
+        flex: 0 0 44px !important; width: 44px !important; height: 44px !important;
+    }
+    .hero-feature-strip-title { font-size: 1rem !important; }
+    .hero-feature-strip-sub   { font-size: 0.85rem !important; }
+
+    /* 5. Quick snapshot / upload cards: natural height, full width */
+    .st-key-snapshot_upload_row div[data-testid="stColumn"] > div[data-testid="stVerticalBlock"],
+    .st-key-snapshot_card,
+    .st-key-resume_upload_card {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+    }
+
+    /* 6. Career Agent: drop the fixed desktop heights */
+    .st-key-career_agent_top_row div[data-testid="stHorizontalBlock"] {
+        height: auto !important;
+        max-height: none !important;
+    }
+    .st-key-agent_capabilities_panel {
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+    .st-key-career_chat_box {
+        height: 600px !important;
+        max-height: 600px !important;
+    }
+    div.st-key-agent_capabilities_panel div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {
+        flex: 1 1 calc(50% - 0.5rem) !important;
+        min-width: calc(50% - 0.5rem) !important;
+        width: auto !important;
+    }
+
+    /* 7. Wide results tables scroll inside themselves, not the whole page */
+    div[data-testid="stDataFrame"], div[data-testid="stTable"] { overflow-x: auto !important; }
+}
+
+
+/* ==========================================================
+   MOBILE FIXES 2 (phones, <= 700px) - keep this block LAST
+   ========================================================== */
+@media (max-width: 700px) {
+
+    /* ---- B. Career Agent empty state: show the FULL "Hi! I'm your Career Agent" ---- */
+    .st-key-career_chat_box:has(.st-key-career_empty_state_wrap) {
+        height: auto !important;
+        max-height: none !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+    }
+    .st-key-career_chat_box .st-key-career_messages_area:has(.st-key-career_empty_state_wrap),
+    .st-key-career_messages_area > [data-testid="stLayoutWrapper"]:has(> .st-key-career_empty_state_wrap) {
+        height: auto !important;
+        max-height: none !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+        justify-content: flex-start !important;
+    }
+    .st-key-career_chat_box .st-key-career_empty_state_wrap,
+    .st-key-career_empty_state_wrap > [data-testid="stLayoutWrapper"]:first-child,
+    .st-key-career_empty_state_wrap > [data-testid="stLayoutWrapper"]:first-child > [data-testid="stHorizontalBlock"] {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        align-items: flex-start !important;
+    }
+    .st-key-career_empty_state_wrap .career-agent-empty-text {
+        text-align: left !important;
+        padding: 0.5rem 0.25rem 0 !important;
+    }
+    .st-key-career_empty_state_wrap .career-agent-empty-title {
+        font-size: 2.35rem !important;
+        line-height: 1.12 !important;
+        word-break: normal !important;
+        overflow: visible !important;
+    }
+    .st-key-career_empty_state_wrap .career-agent-empty-subtitle {
+        font-size: 1.02rem !important;
+        line-height: 1.5 !important;
+    }
+    .st-key-career_empty_state_wrap .career-agent-empty-avatar-wrap .hero-illustration-frame {
+        aspect-ratio: 16 / 10 !important;
+        border-radius: 14px !important;
+    }
+    .st-key-career_empty_state_wrap .career-agent-prompt-row div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {
+        flex: 1 1 100% !important;
+        min-width: 100% !important;
+    }
+
+    /* ---- C. Score boxes: "Not available" stays INSIDE its box ---- */
+    .match-cat-box { overflow: hidden !important; min-width: 0 !important; }
+    .match-cat-box-head { flex-wrap: wrap !important; row-gap: 2px !important; }
+    .match-cat-box-score-na {
+        font-size: 0.74rem !important;
+        white-space: nowrap !important;
+        margin-left: auto !important;
+    }
+
+    /* ---- D. Saved jobs: tidy 2-line card per job ---- */
+    .st-key-saved_jobs_scroll_area {
+        height: auto !important;
+        max-height: 520px !important;
+        overflow-y: auto !important;
+    }
+    div[class*="st-key-saved_row_"] {
+        padding: 0.75rem !important;
+        border-radius: 14px !important;
+    }
+    div[class*="st-key-saved_row_"] div[data-testid="stHorizontalBlock"] {
+        display: grid !important;
+        grid-template-columns: 42px minmax(0, auto) 1fr 46px !important;
+        grid-template-areas:
+            "avatar title title menu"
+            "avatar score time  time" !important;
+        column-gap: 0.65rem !important;
+        row-gap: 0.4rem !important;
+        align-items: center !important;
+    }
+    div[class*="st-key-saved_row_"] div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        flex: initial !important;
+    }
+    div[class*="st-key-saved_row_"] div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:nth-child(1) { grid-area: avatar; align-self: start; }
+    div[class*="st-key-saved_row_"] div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:nth-child(2) { grid-area: title; }
+    div[class*="st-key-saved_row_"] div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:nth-child(3) { grid-area: score; }
+    div[class*="st-key-saved_row_"] div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:nth-child(4) { grid-area: time; }
+    div[class*="st-key-saved_row_"] div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:nth-child(5) { grid-area: menu; }
+
+    div[class*="st-key-saved_row_"] .saved-job-avatar { width: 42px; height: 42px; }
+    div[class*="st-key-saved_row_"] .stLinkButton a,
+    div[class*="st-key-saved_row_"] [data-testid="stLinkButton"] a {
+        justify-content: flex-start !important;
+        text-align: left !important;
+        min-height: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+    div[class*="st-key-saved_row_"] .stLinkButton a p,
+    div[class*="st-key-saved_row_"] [data-testid="stLinkButton"] a p {
+        white-space: normal !important;
+        text-align: left !important;
+        font-weight: 600 !important;
+        line-height: 1.3 !important;
+    }
+    div[class*="st-key-saved_row_"] [data-testid="stCaptionContainer"] { margin: 0 !important; }
+    div[class*="st-key-saved_row_"] [data-testid="stPopover"] button { min-height: 38px !important; padding: 0 !important; }
+
+    /* ---- E. Recent searches: [search] title ....time [x] on ONE row ---- */
+    .st-key-recent_searches_scroll_area {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: 360px !important;
+        overflow-y: auto !important;
+    }
+    div.st-key-recent_searches_bottom_panel div[data-testid="stHorizontalBlock"]:has(.recent-search-row) {
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+    }
+    div.st-key-recent_searches_bottom_panel div[data-testid="stHorizontalBlock"]:has(.recent-search-row) > div[data-testid="stColumn"] {
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        flex: 0 0 42px !important;
+    }
+    div.st-key-recent_searches_bottom_panel div[data-testid="stHorizontalBlock"]:has(.recent-search-row) > div[data-testid="stColumn"]:nth-child(2) {
+        flex: 1 1 0 !important;
+    }
+    .recent-search-row { height: auto !important; min-height: 42px; gap: 0.5rem !important; }
+    .recent-search-title { font-size: 0.95rem !important; }
+}
+
+
+/* ==========================================================
+   MOBILE FIXES 3 - chat composer on phones (<= 700px)
+   [paperclip 46px] [text box = ALL remaining space] [send 46px]
+   This is the ONLY place the composer row is styled on phones.
+   Root cause of the old bug: the inner row (text box | send) was split
+   50/50 because the selectors pointed at a <form> tag, while Streamlit
+   renders the form as <div data-testid="stForm">. The send column was
+   half the row wide with the 46px button sitting at its left edge.
+   ========================================================== */
+@media (max-width: 700px) {
+    /* every wrapper around the composer spans the whole chat panel */
+    .st-key-career_chat_form,
+    .st-key-career_chat_form > div,
+    .st-key-career_chat_form [data-testid="stLayoutWrapper"],
+    .st-key-career_chat_form [data-testid="stVerticalBlock"],
+    .st-key-career_chat_form [data-testid="stForm"],
+    .st-key-career_chat_form form,
+    .st-key-career_chat_form [data-testid="stHorizontalBlock"],
+    .st-key-career_chat_form [data-testid="stElementContainer"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+    /* both rows: one line, no wrapping */
+    .st-key-career_chat_form [data-testid="stHorizontalBlock"] {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+    }
+
+    /* the two icon buttons: exactly 46px wide */
+    .st-key-career_chat_form div[data-testid="stColumn"]:has(.st-key-career_chat_attach_box),
+    .st-key-career_chat_form [data-testid="stForm"] [data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:last-child,
+    .st-key-career_chat_form form [data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:last-child {
+        flex: 0 0 46px !important;
+        width: 46px !important;
+        min-width: 46px !important;
+        max-width: 46px !important;
+    }
+    .st-key-career_chat_attach_box {
+        width: 46px !important;
+        min-width: 0 !important;
+        max-width: 46px !important;
+        margin: 0 !important;
+    }
+    .st-key-career_chat_form button[data-testid="stBaseButton-primaryFormSubmit"],
+    .st-key-career_chat_form [data-testid="stFormSubmitButton"] button {
+        width: 46px !important;
+        min-width: 46px !important;
+        max-width: 46px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .st-key-career_chat_form [data-testid="stFormSubmitButton"],
+    .st-key-career_chat_form [data-testid="stFormSubmitButton"] > div {
+        width: 46px !important;
+        min-width: 46px !important;
+    }
+
+    /* the text box column takes ALL the remaining space */
+    .st-key-career_chat_form div[data-testid="stColumn"]:has([data-testid="stForm"]),
+    .st-key-career_chat_form div[data-testid="stColumn"]:has(form),
+    .st-key-career_chat_form [data-testid="stForm"] [data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child,
+    .st-key-career_chat_form form [data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:first-child {
+        flex: 1 1 0 !important;
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: none !important;
+    }
+    .st-key-career_chat_form [data-testid="stTextInputRootElement"],
+    .st-key-career_chat_form [data-testid="stTextInput"] {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+    .st-key-career_chat_form input[type="text"] {
+        font-size: 0.95rem !important;
+        padding-left: 0.8rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+
+
+/* ==========================================================
+   HIDE STREAMLIT CHROME - top bar (Fork / GitHub / Share) and the
+   bottom-right badges (red crown "Hosted with Streamlit" + profile
+   avatar). Keep this block LAST.
+   ========================================================== */
+header[data-testid="stHeader"],
+[data-testid="stToolbar"],
+[data-testid="stAppToolbar"],
+[data-testid="stToolbarActions"],
+[data-testid="stMainMenu"],
+[data-testid="stDecoration"],
+[data-testid="stAppDeployButton"],
+[data-testid="stStatusWidget"],
+.stAppToolbar,
+.stDeployButton,
+#MainMenu,
+footer {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+}
+
+/* bottom-right badges added by Streamlit Community Cloud */
+[class*="viewerBadge"],
+[class*="ViewerBadge"],
+[class*="_profileContainer"],
+[class*="_profilePreview"],
+[class*="_container_gzau3"],
+[class*="_link_gzau3"],
+[data-testid="appCreatorAvatar"],
+[data-testid="stBottomBlockContainer"] a[href*="streamlit.io"],
+a[href^="https://streamlit.io/cloud"],
+a[href*="share.streamlit.io"][target="_blank"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* the top bar is gone, so the page no longer needs the big top gap */
+.stApp .block-container,
+div[data-testid="stMainBlockContainer"] {
+    padding-top: 1.5rem !important;
+}
